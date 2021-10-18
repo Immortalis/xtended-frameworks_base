@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The Projet Xtended
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">Kopiuj link dziennika awarii</string>
+    <string name="url_copy_success">Link skopiowany pomyślnie</string>
+    <string name="url_copy_failed">Wystąpił błąd w trakcie wysyłania dziennika do dogbin</string>
+
+    <!-- Vendor mismatch fingerprint warning [CHAR LIMIT=NONE] -->
+    <string name="system_error_vendorprint">Obraz dostawcy nie pokrywa się z systemem. Proszę wgrać obraz dostawcy <xliff:g id="string">%s</xliff:g> dla swojego urządzenia</string>
+
+    <!-- AOKP custom system animations -->
+    <string name="animation_fade">Zanikanie</string>
+    <string name="animation_slide_right">Wsuń z prawej</string>
+    <string name="animation_slide_left">Wsuń z lewej</string>
+    <string name="animation_slide_right_no_fade">Wsuń z prawej (bez zanikania)</string>
+    <string name="animation_slide_left_no_fade">Wsuń z lewej (bez zanikania)</string>
+    <string name="animation_slide_up">Wsuń z dołu</string>
+    <string name="animation_slide_down">Wsuń z góry</string>
+    <string name="animation_default">Domyślnie</string>
+    <string name="animation_translucent">Translucent</string>
+    <string name="animation_grow_shrink">Rozciągnij (z góry)</string>
+    <string name="animation_grow_shrink_center">Rozciągnij (ze środka)</string>
+    <string name="animation_grow_shrink_bottom">Rozciągnij (z dołu)</string>
+    <string name="animation_grow_shrink_left">Rozciągnij (z lewej)</string>
+    <string name="animation_grow_shrink_right">Rozciągnij (z prawej)</string>
+    <string name="animation_random">Losowa</string>
+    <string name="action_null">Puste</string>
+    <string name="animation_ethans">Ethans</string>
+
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Dzwonki i powiadomienia będą dzwonić</string>
+
+    <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_accessFontManager">dostęp do menedżera czcionek</string>
+    <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessFontManager">Zezwala aplikacji na dostęp do menedżera czcionek.</string>
+    <!-- [CHAR LIMIT=NONE] Error when a package is installed but got the missing fonts.xml file, notifying the user why it isn't showing up. -->
+    <string name="fontservice_incompatible_font">Zainstalowana paczka czcionki jest niekompatybilna ze względu na brakujący fonts.xml w jej plikach. Skonsultuj się z deweloperem paczki po wsparcie. </string>
+
+    <!-- Alert slider proc nodes paths. -->
+    <string name="alert_slider_state_path"></string>
+    <string name="alert_slider_uevent_match_path"></string>
+
+    <!-- MicroG -->
+    <string name="permlab_fakePackageSignature">Fałszowanie sygnatur aplikacji</string>
+    <!-- Description of an application permission, listed so the user can choose whether
+         they want to allow the application to do this. -->
+    <string name="permdesc_fakePackageSignature">Zezwala aplikacji na udawanie bycia inną aplikacją. Złośliwe aplikacje mogą tego użyć, by uzyskać dostęp do prywatnych danych aplikacji. W uzasadnionych użyciach zawiera się emulacja i udawanie tego, co jest emulowane. Przydziel to uprawnienie z rozwagą!</string>
+    <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permgrouplab_fake_package_signature">Fałszuj sygnaturę aplikacji</string>
+    <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permgroupdesc_fake_package_signature">Zezwalaj na fałszowanie sygnatur aplikacji</string>
+    <!-- Message shown to the user when the apps requests permission from this group. If ever possible this should stay below 80 characters (assuming the parameters takes 20 characters). Don't abbreviate until the message reaches 120 characters though. [CHAR LIMIT=120] -->
+    <string name="permgrouprequest_fake_package_signature">Czy zezwolić aplikacji
+        &lt;b><xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b> na fałszowanie sygnatur?</string>
+
+    <!-- Pocket Lock -->
+    <string name="pocket_lock_message_long_press">Tryb kieszonkowy aktywny. Naciśnij i przytrzymaj przycisk zasilania, aby odblokować</string>
+
+   <!-- Pocket Lock -->
+    <string name="pocket_view_title">Tryb kieszonkowy jest aktywny</string>
+    <string name="pocket_view_title_cancel">By używać telefonu:</string>
+    <string name="pocket_view_top_tag_cancel">Nie zasłaniaj niebieskiego obszaru telefonu oraz wyczyść kurz i pyłki</string>
+    <string name="pocket_view_top_tag_cancel2">Długo przytrzymaj przycisk zasilania, by wymusić opuszczenie trybu kieszonkowego</string>
+    <string name="pocket_view_top_tag_number1">1.\u0020</string>
+    <string name="pocket_view_top_tag_number2">2.\u0020</string>
+
+    <!-- SystemUI Restart -->
+    <string name="systemui_restart_title">Wymagany restart SystemUI</string> 
+    <string name="systemui_restart_message">By zmiany przyniosły rezultat, wymagany jest restart interfejsu. Zrestartować SystemUI teraz?</string>
+
+    <!-- Sleep Mode -->
+    <string name="notification_channel_sleep">Tryb snu</string>
+    <string name="sleep_mode_notification_title">Tryb snu aktywny</string>
+    <string name="sleep_mode_notification_content">Stuknij, aby wyłączyć tryb snu</string>
+    <string name="sleep_mode_enabled_toast">Włączono tryb snu</string>
+    <string name="sleep_mode_disabled_toast">Wyłączono tryb snu</string>
+
+    <!-- Clipboard access toast -->
+    <string name="app_clipboard_access_denied">Odmówiono aplikacji %1$s dostępu do schowka</string>
+    <string name="app_clipboard_access_granted">Przydzielono aplikacji %1$s dostępu do schowka</string>
+
+</resources>
